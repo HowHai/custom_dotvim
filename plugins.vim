@@ -19,7 +19,7 @@ let g:delimitMate_expand_cr = 1    " Turns on/off the expansion of <CR>
 
 " nerdtree
 " Ctrl-P to Display the file browser tree
-nmap <C-P> :NERDTreeTabsToggle<CR>
+nmap <leader>, :NERDTreeTabsToggle<CR>
 " ,p to show current file in the tree
 nmap <leader>p :NERDTreeFind<CR>
 
@@ -61,7 +61,7 @@ let g:yankring_history_dir = '~/.backup'
 "nmap <unique> <silent> <Leader>. :CommandTFlush<CR>:CommandT<CR>
 "let g:CommandTMatchWindowAtTop=1
 
-let g:ctrlp_map = '<leader>,'
+let g:ctrlp_map = '<C-P>'
 let g:ctrlp_cmd = 'CtrlP'
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>

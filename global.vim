@@ -95,3 +95,22 @@ runtime macros/matchit.vim
 
 let mapleader = ","
 let maplocalleader = "\\"
+
+" Custom settings
+" Colorscheme
+colorscheme default
+
+set formatoptions+=w
+set tw=81
+set scrolloff=999
+set timeoutlen=1000 ttimeoutlen=10
+nnoremap ; :
+let g:NERDTreeDirArrows=0
+
+set listchars=tab:➝.,extends:#,nbsp:.
+set list
+
+set ts=2
+set sw=2
+set et
+
