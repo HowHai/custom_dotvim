@@ -9,8 +9,8 @@ if filereadable(expand("~/.local-after.vim"))
   source ~/.local-after.vim
 endif
 
-if filereadable(expand("~/.vimrc.after"))
-  source ~/.vimrc.after
+if filereadable(expand("~/.vim/.vimrc.after"))
+  source ~/.vim/.vimrc.after
 endif
 
 if has('gui_running')
